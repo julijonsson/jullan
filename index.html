@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BishBosh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <form id="frm1" >
+
+        <h1>Bish-Bosh2.0</h1>
+        <h4>    Bish-Bosh listar tal mellan 1 och det du väljer nedan(). 
+            <br>
+        Om talet är jämnt delbart med ditt valda bish  -tal() visas <span>'Bish'</span>  istället för talet.
+        <br>
+        Om talet är jämnt delbart med ditt valda bosh -tal() visas <span>'Bosh'</span> istället för talet.
+        <br>
+        Om talet är jämnt delbart med båda dina tal visas "Bish-Bosh"   </h4>
+        <br>
+
+        <br><br> Antal nummer: <br>
+        <input id="rangeInput" class="myrange" type="range" min="1" max="1000" onchange="myDataShow()" oninput="amount.value=rangeInput.value"  />
+        <input id="amount" type="number"  value="500" min="1" max="1000" oninput="rangeInput.value=amount.value" />
+
+
+        <br><br> Bish nummer: <br>
+        <input id="rangeInput1" class="myrange" type="range" min="1" max="100" onchange="myDataShow()" oninput="amount1.value=rangeInput1.value"   />
+        <input id="amount1" type="number" value="50" min="1" max="100" oninput="rangeInput1.value=amount1.value" />
+        <br><br> Bash nummer: <br><br>
+
+        <input id="rangeInput2" class="myrange" type="range" min="1" max="100" onchange="myDataShow()" oninput="amount2.value=rangeInput2.value"  />
+        <input id="amount2" type="number" value="50" min="1" max="100" oninput="rangeInput2.value=amount2.value" />
+        <br>
+    </form>
+
+
+    <p id="demo"></p>
+
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+#demo{
+    background-color: black;
+    color: black;
+    font-size:18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+ 
+
+     
+    
+}
+
+.children{
+width:13%;
+background-color: white;
+border-radius: 3px solid black;
+margin-top: 1%;
+margin-left: 1%;
+text-align: center;
+padding: 10px;
+}
+
+.myrange{
+
+   width: 30%;
+
+}
